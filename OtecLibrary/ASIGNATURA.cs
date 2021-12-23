@@ -56,11 +56,11 @@ namespace OtecLibrary
         }
         public int eliminarasi()
         {
-            return datoconex.GuardarDatos("DELETE FROM ro_bf_ASIGNATURA WHERE cod_cordinador = '" + this.cod_asignatura + "'");
+            return datoconex.GuardarDatos("DELETE FROM ro_bf_ASIGNATURA WHERE cod_asignatura = '" + this.cod_asignatura + "'");
         }
         public int modificarasi(ASIGNATURA asig)
         {
-            return datoconex.GuardarDatos("UPDATE ro_bf_ASIGNATURA SET  cod_cordinador = '" + asig.cod_asignatura + "', nom_asignatura'" + asig.nom_asignatura +  "'");
+            return datoconex.GuardarDatos("UPDATE ro_bf_ASIGNATURA SET  cod_asignatura = '" + asig.cod_asignatura + "', nom_asignatura = '" + asig.nom_asignatura +  "'");
         }
 
     }

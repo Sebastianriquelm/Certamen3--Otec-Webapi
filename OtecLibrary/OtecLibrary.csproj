@@ -46,6 +46,7 @@
     <Compile Include="ConectionBD.cs" />
     <Compile Include="CORDINADOR.cs" />
     <Compile Include="CURSOS.cs" />
+    <Compile Include="dataset.cs" />
     <Compile Include="Parametros_ASIG.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SEDE.cs" />
